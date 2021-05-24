@@ -9,6 +9,7 @@ import { colors } from './Source/Utils/colors';
 import { spacing } from './Source/Utils/sizes';
 
 export default function App() {
+  console.log ("yolo")
   const [focusSubject, setFocusSubject] = useState(null);
   const [focusHistory, setfocusHistory] = useState([]);
   const STATUSES = {
